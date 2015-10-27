@@ -3,7 +3,8 @@
 ## Production -> Stage Submitter
 * Running on i-aaee0d5c / ec2-52-27-158-113.us-west-2.compute.amazonaws.com
 * Restart using **sudo systemctl restart socorro-submitter**
-
+* Crank up % of crashes sent to stage to 20%:  **consultate kv set socorro/submitter/producer_consumer.number_of_threads 2**
+* 
 ## Logging into AWS
 * https://mozilla-webeng.signin.aws.amazon.com/console
 
