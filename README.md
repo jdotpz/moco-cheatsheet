@@ -48,7 +48,7 @@ $ cat socorro.consul.config.json | consulate kv restore
 $ sudo systemctl start socorro-processor
 
 ## Script to kill nodes (uses old AWS api command line tools)
-```as-set-instance-health $1 --status Unhealthy```
-```sleep 1```
-```ec2-terminate-instances $1```
+```as-set-instance-health $1 --status Unhealthy```;
+```sleep 1```;
+```ec2-terminate-instances $1```;
 
